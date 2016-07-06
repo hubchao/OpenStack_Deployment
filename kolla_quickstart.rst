@@ -95,6 +95,9 @@ Docker 同步的，因此当前测试过的 Docker 版本为 1.10.0 以上的版
     # 克隆 Kolla 代码仓库
     git clone https://git.openstack.org/openstack/kolla
     
+    # 切换至 stable/liberty 分支
+    git checkout remotes/origin/stable/liberty
+    
     # 安装 Kolla 工具及依赖
     pip install kolla/
     
